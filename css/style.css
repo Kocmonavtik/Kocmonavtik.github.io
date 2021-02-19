@@ -52,7 +52,7 @@ html{
 }
 .Photo_name{
  /* max-width: 30%; 30%*/
- width: 30%;
+ width: 400px;
  /*text-align: center;*/
  /*float: left;*/
 }
