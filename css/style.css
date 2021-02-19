@@ -1,0 +1,96 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local(''),
+       url('../fonts/montserrat-v15-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v15-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* . Уменьшает саму картинку чтобы она не выходила за заданные пределы 200х100 когда используются падинги(расстояние между пикселями?)*/
+html{
+  box-sizing: border-box;
+}
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+/*.item{
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  padding: 20px;
+} ((Необходимо было для изучения работы))
+*/
+html{
+  background-color: #E0FFFF;
+}
+.Main{
+  max-width: 1300px;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /*margin: 0 auto;*/
+}
+.Photo_name{
+ /* max-width: 30%; 30%*/
+ width: 500px;
+ /*text-align: center;*/
+ /*float: left;*/
+}
+.Skills_contacts{
+  margin-left: 10px;
+  margin-top: -5px;
+  max-width: 500px;
+  /*padding-top: 200px;*/
+}
+.Skills{
+
+}
+.contacts{
+  /*50%*/
+  padding-top: 500px;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+h1{
+  width: 100%;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+}
+h2{
+  font-size: 28px;
+  line-height: 34px;
+}
+p{
+  font-size: 24px;
+  line-height: 29px;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active{
+  color: red;
+}
