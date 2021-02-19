@@ -52,7 +52,7 @@ html{
 }
 .Photo_name{
  /* max-width: 30%; 30%*/
- width: 500px;
+ width: 30%;
  /*text-align: center;*/
  /*float: left;*/
 }
@@ -70,7 +70,7 @@ html{
   padding-top: 500px;
 }
 img{
-  width: 70%;
+  width: 100%;
   height: auto;
 }
 h1{
